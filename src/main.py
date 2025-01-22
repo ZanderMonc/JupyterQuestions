@@ -23,7 +23,11 @@ def main():
     return
 
 def singlecellversion():
+    if os.path.exists('./src'):
+        os.chdir('./src')
+    os.makedirs('./user', exist_ok=True)
     create_control_notebook(config=config)
+    
 
 
 def multicellversion():
