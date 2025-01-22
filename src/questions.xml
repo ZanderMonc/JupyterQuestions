@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Default for JMQStest</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>The default category for questions shared in context 'JMQStest'.</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 1  -->
+  <question type="multichoice">
+    <name>
+      <text>tq</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>test question</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>yes</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p>no lol</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Python Declare Variables/Python Declare Variables - Initial Test</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 4527  -->
+  <question type="ddwtos">
+    <name>
+      <text>Python Declare - Create display</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Add the correct code fragments to have the program output "Hello world".</p><pre>prompt = [[1]]
+location = [[2]]
+print( [[3]] + " " + [[4]])</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 2.2<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text><![CDATA["Hello"]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text><![CDATA["world"]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>prompt</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>location</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>space</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>world</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Hello</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text><![CDATA[&]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>++</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 4513  -->
+  <question type="ddwtos">
+    <name>
+      <text>Python Declare - Create display</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Add the correct code fragments to have the program output <code>"Hello world"</code>.</p>
+<pre>prompt = [[1]]
+location = [[2]]
+print([[3]] + " " + [[4]])</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Operators, Casting and Comparing</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text><![CDATA["Hello"]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text><![CDATA["world"]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>prompt</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>location</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>space</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>world</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Hello</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text><![CDATA[&]]></text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>++</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 4516  -->
+  <question type="ddwtos">
+    <name>
+      <text>Python Declare - Pearsons Add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Please create a three line program to display the number 4.</p><p>[[1]]</p><p>[[2]]</p><p>[[3]]</p><p>Use the artefacts provided.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Operators, Casting and Comparing</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>two = 2</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>one = two</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>print( one + two)</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>four = 4</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>one = four</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 4528  -->
+  <question type="multichoice">
+    <name>
+      <text>Python Declare - Assign numeric multiple choice</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello"
+a = 4
+b = len(prompt)
+c = 6
+c = a
+a = b
+a = c
+c = a + b + c</pre><p>What does c equal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 5.0 Assignment Operations<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>13</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>14</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<pre>Error</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4514  -->
+  <question type="multichoice">
+    <name>
+      <text>Python Declare - Assign numeric multiple choice</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello"
+a = 4
+b = len(prompt)
+c = 6
+c = a
+a = b
+a = c
+c = a + b + c</pre>
+<p>What is the final value of <code>c</code>?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Basics of Variables (and Comments)</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>15</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>13</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>14</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<pre>Error</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4518  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[What is "2" in the following code?]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>What best describes the artefact <b>2</b> in the following code?</p><pre>result = result*2</pre><p></p><br><p></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 6.0 Values have types<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Value</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Statement</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operator</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Variable</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Expression</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4519  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[What is "result = result*2" in the following code?]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>What is best describes the artefact <b>result = result*2</b>&nbsp;in the following code?</p><pre>result = result*2</pre><p></p><br><p></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 4.0 Statements<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Value</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Statement</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operator</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Variable</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Expression</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4520  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[What is "result" in the following code?]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>What best describes the artefact <b>result</b>&nbsp;in the following code?</p><pre>result = result*2</pre><br><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 4.2 Variables<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Value</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Statement</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operator</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Variable</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Expression</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4521  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[What is "result*2" in the following code?]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p>What best describes the artefact <b>result*2</b> in the following code?</p><pre>result = result*2</pre><br><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 3.0 Expressions</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>false</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Value</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Statement</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Operator</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Variable</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Expression</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4508  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Add numbers</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 5
+b = 6
+c = a
+a = b
+a = c
+c = a + b</pre>
+<p>What is the value of <code>c</code>?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Operators, Casting and Comparing</b></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4522  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Add numbers</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 5
+b = 6
+c = a
+a = b
+a = c
+c = a + b</pre>
+<p>What is the value of <code>c</code>?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 3.0&nbsp;</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4510  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Swap and add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 4
+b = 5
+a = b
+a = a + b</pre>
+<p>What does <code>a</code> equal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Basics of Variables (and Comments)</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4524  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Swap and add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 4
+b = 5
+a = b
+a = a + b</pre>
+<p>What does <code>a</code> equal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 3.0&nbsp;<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4509  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Swapping values</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 4
+b = 5
+a = b
+b = a</pre>
+<p>What does <code>a</code> equal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Basics of Variables (and Comments)</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4523  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare - Swapping values</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>a = 4
+b = 5
+a = b
+b = a</pre>
+<p>What does <code>a</code> equal?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 3.0&nbsp;<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4536  -->
+  <question type="numerical">
+    <name>
+      <text>Python Declare Initial - Swapping values</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><pre>a = 4
+b = 5
+a = b
+b = a</pre><p>What does&nbsp;<code>a</code>&nbsp;equal?</p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 3.0&nbsp;<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+  </question>
+
+<!-- question: 4526  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Boolean add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello"<br>result = True + 1<br>print(result)</pre>
+<p>What is displayed to the console? If executing the code will result in an error write <code>Error</code>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 2.3 Boolean Operations<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4512  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Boolean add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello"<br>result = True + 1<br>print(result)</pre>
+<p>What is displayed to the console? If executing the code will result in an error write <code>Error</code>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Operators, Casting and Comparing</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4517  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Input name</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write a line of code to prompt the user to input their name and store it in a variable called <code>name</code>. The program should prompt the user with the phrase <code>"Please input name"</code>. Please don't add spaces if not required; for example, note the lack of spaces around the equals sign below:</p>
+<pre>name="Frank says hello"</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Input and Advanced Output</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name=input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name= input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input( "Please input name" )]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name =input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input( "Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name=input( "Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>name=input('Please input name')</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>name = input('Please input name')</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4530  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Input name</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Write a line of code to prompt the user to input their name and store it in a variable called <code>name</code>. The program should prompt the user with the phrase <code>"Please input name"</code>. Please don't add spaces if not required; for example, note the lack of spaces around the equals sign below:</p>
+<pre>name="Frank says hello"</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 4.1 Input<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name=input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name= input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input( "Please input name" )]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name =input("Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name = input( "Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name=input( "Please input name")]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Correct<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>name=input('Please input name')</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>name = input('Please input name')</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4515  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Manipulate Hello</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>hello = "Hello"<br>bye = "Bye"<br>x = bye<br>hello = x<br>print(hello)</pre>
+<p>What is displayed to the console? Write <code>Error</code> if the code will not execute successfully.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Basics of Variables (and Comments)</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Bye</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Bye"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4529  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Manipulate Hello</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>hello = "Hello"<br>bye = "Bye"<br>x = bye<br>hello = x<br>print(hello)</pre>
+<p>What is displayed to the console? Write <code>Error</code> if the code will not execute successfully.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 2.2 String Operations and 5.0 Assignment Operators<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Bye</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Bye"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4525  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Set string</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello "<br>name = "John"<br>result = prompt.strip() + name.lower()<br>print(result)</pre>
+<p>What is displayed to the console?If executing the code will result in an error, write <code>Error</code>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 6.2 String Functions<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Hellojohn</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Hellojohn"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4511  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare - Set string</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>prompt = "Hello "<br>name = "John"<br>result = prompt.strip() + name.lower()<br>print(result)</pre>
+<p>What is displayed to the console?If executing the code will result in an error, write <code>Error</code>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see <b>Lesson - Input and Advanced Output</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Hellojohn</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Hellojohn"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4533  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare Inital - Input name</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><p>Write a line of code to prompt the user to input their name and store it in a variable called&nbsp;<code>name</code>. The program should prompt the user with the phrase&nbsp;<code>"Please input name"</code>. Please don't add spaces if not required; for example, note the lack of spaces around the equals sign below:</p><pre>name="Frank says hello"</pre><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 4.1 Input<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name*=*input(*"Please input name*"*)]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name=input("Please input name")]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[name= input("Please input name")]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4534  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare Initial - Boolean add</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><pre>prompt = "Hello"<br>result = True + 1<br>print(result)</pre><p>What is displayed to the console? If executing the code will result in an error write&nbsp;<code>Error</code>.</p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 2.3 Boolean Operations<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4531  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare Initial - Manipulate Hello</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><pre>hello = "Hello"<br>bye = "Bye"<br>x = bye<br>hello = x<br>print(hello)</pre><p>What is displayed to the console? Write&nbsp;<code>Error</code>&nbsp;if the code will not execute successfully.</p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Jupyter notebooks for Variables see section 2.2 String Operations and 5.0 Assignment Operators<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Bye</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Bye"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 4535  -->
+  <question type="shortanswer">
+    <name>
+      <text>Python Declare Initial - Set string</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><pre>prompt = "Hello "<br>name = "John"<br>result = prompt.strip() + name.lower()<br>print(result)</pre><p>What is displayed to the console?If executing the code will result in an error, write&nbsp;<code>Error</code>.</p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Please see Python Variable Jupyter Note Book Section 6.2 String Functions<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Hellojohn</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA["Hellojohn"]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
