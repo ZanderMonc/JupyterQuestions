@@ -58,19 +58,8 @@ def multicellversion():
         
         create_control_notebook(config,quizfilename,category_text)
         print(f"Quiz created for {category_text} in user folder")
-        jsonprompt = input("Would you like to save the quiz data as a json file? y/n: ")
-        if jsonprompt.upper() == "Y":
-            if config["usedefaultuserdir"].upper() == "Y":
-                jsonfile = jsonlist_to_json(jsonlist)
-                with open(f'./user/{quizfilename}.json', 'w') as f:
-                    f.write(jsonfile)
-                    f.close()
-            else:
-                userdir = input("Enter the path to the directory where you would like to save the json file: ")
-                jsonfile = jsonlist_to_json(jsonlist)
-                with open(f'{userdir}/{quizfilename}.json', 'w') as f:
-                    f.write(jsonfile)
-                    f.close()
+        save_json_to_file(jsonlist, quizfilename,config)
+        
     elif filetype == "json":
         quizrun(file)
     return

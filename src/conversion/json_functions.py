@@ -1,4 +1,5 @@
 import json
+import os
 import xml.etree.ElementTree as ETree
 from conversion.xml_functions import format_xml_to_text
 
@@ -59,3 +60,19 @@ def jsonlist_to_json(data):
     return json.dumps(jsonoutformat, indent=4)
 
 
+def save_json_to_file(jsonlist, quizfilename,config):
+    #takes a json string and a filename and writes the json string to the
+    jsonfile = jsonlist_to_json(jsonlist)
+    jsonprompt = input("Would you like to save the quiz data as a json file? y/n: ")
+    if jsonprompt.upper() == "Y":
+        if config["usedefaultuserdir"].upper() == "Y":
+            with open(f'./user/{quizfilename}.json', 'w') as f:
+                f.write(jsonfile)
+                f.close()
+        else:
+            userdir = input("Enter the path to the directory where you would like to save the json file: ")
+            with open(f'{userdir}/{quizfilename}.json', 'w') as f:
+                f.write(jsonfile)
+                f.close()
+        return os.path.abspath(f'{quizfilename}.json')  
+    return None
