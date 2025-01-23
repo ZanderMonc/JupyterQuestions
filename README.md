@@ -4,7 +4,7 @@ Further educator interactions are hosted via a control.ipynb jupyter notebook fi
 
 There is an implemented example of a multi-cell quiz and a single-cell quiz, see : src/example/Python_Declare_Variables.ipynb
 
-Requirements
+# Requirements
 List the all of the pre-requisites software required to set up your project (e.g. compilers, packages, libraries, OS, hardware)
 
 python 3.9 +
@@ -17,7 +17,7 @@ Ensure python 3.9 or greater is installed
 optional : pip install venv if not already present, run python -m venv, then activate the virtual environment by calling venv\scripts\activate
 install all project packages: pip install -e requirements.txt
 
-Test steps
+# Test steps
 
 Primary tests can be ran with venv activated 
   python src/test.py
