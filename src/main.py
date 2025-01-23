@@ -59,9 +59,9 @@ def multicellversion():
         create_control_notebook(config,quizfilename,category_text)
         print(f"Quiz created for {category_text} in user folder")
         save_json_to_file(jsonlist, quizfilename,config)
-        
+
     elif filetype == "json":
-        quizrun(file)
+        quizrun(jsonfile,jsonfile)
     return
 
 def quizrun(quiztopic, quizcomponent):#function runs any json quiz in single cell , quiztopic such as "declaring variables", quizcomponent such as "final test"
