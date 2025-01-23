@@ -1,0 +1,198 @@
+{
+    "quiz": {
+        "question1": {
+            "name": "Python Declare - Assign numeric multiple choice",
+            "question": {
+                "line0": "prompt = 'Hello'",
+                "line1": "a = 4",
+                "line2": "b = len(prompt)",
+                "line3": "c = 6",
+                "line4": "c = a",
+                "line5": "a = b",
+                "line6": "a = c",
+                "line7": "c = a + b + c",
+                "line8": " What does c equal?"
+            },
+            "choices": {
+                "A": "4",
+                "B": " 15\n",
+                "C": " 13\n",
+                "D": " 14\n",
+                "E": " Error\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are wrong",
+                "C": "you are correct",
+                "D": "you are wrong",
+                "E": "you are wrong"
+            },
+            "correct_answer": "C"
+        },
+        "question2": {
+            "name": "Python Declare - Assign numeric multiple choice",
+            "question": {
+                "line0": "prompt = 'Hello'",
+                "line1": "a = 4",
+                "line2": "b = len(prompt)",
+                "line3": "c = 6",
+                "line4": "c = a",
+                "line5": "a = b",
+                "line6": "a = c",
+                "line7": "c = a + b + c",
+                "line8": "",
+                "line9": " What is the final value of  c",
+                "line10": "?"
+            },
+            "choices": {
+                "A": "4",
+                "B": " 15\n",
+                "C": " 13\n",
+                "D": " 14\n",
+                "E": " Error\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are wrong",
+                "C": "you are correct",
+                "D": "you are wrong",
+                "E": "you are wrong"
+            },
+            "correct_answer": "C"
+        },
+        "question3": {
+            "name": "What is '2' in the following code?",
+            "question": {
+                "line0": "What best describes the artefact  2  in the following code?",
+                "line1": " result = result*2"
+            },
+            "choices": {
+                "A": " Value\n",
+                "B": " Statement\n",
+                "C": " Operator\n",
+                "D": " Variable\n",
+                "E": " Expression\n",
+                "F": " None of the above\n"
+            },
+            "feedback": {
+                "A": "you are correct",
+                "B": "you are wrong",
+                "C": "you are wrong",
+                "D": "you are wrong",
+                "E": "you are wrong",
+                "F": "you are wrong"
+            },
+            "correct_answer": "A"
+        },
+        "question4": {
+            "name": "What is 'result = result*2' in the following code?",
+            "question": {
+                "line0": "What is best describes the artefact  result = result*2 &nbsp;in the following code?",
+                "line1": " result = result*2"
+            },
+            "choices": {
+                "A": " Value\n",
+                "B": " Statement\n",
+                "C": " Operator\n",
+                "D": " Variable\n",
+                "E": " Expression\n",
+                "F": " None of the above\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are correct",
+                "C": "you are wrong",
+                "D": "you are wrong",
+                "E": "you are wrong",
+                "F": "you are wrong"
+            },
+            "correct_answer": "B"
+        },
+        "question5": {
+            "name": "What is 'result' in the following code?",
+            "question": {
+                "line0": "What best describes the artefact  result &nbsp;in the following code?",
+                "line1": " result = result*2"
+            },
+            "choices": {
+                "A": " Value\n",
+                "B": " Statement\n",
+                "C": " Operator\n",
+                "D": " Variable\n",
+                "E": " Expression\n",
+                "F": " None of the above\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are wrong",
+                "C": "you are wrong",
+                "D": "you are correct",
+                "E": "you are wrong",
+                "F": "you are wrong"
+            },
+            "correct_answer": "D"
+        },
+        "question6": {
+            "name": "What is 'result*2' in the following code?",
+            "question": {
+                "line0": "What best describes the artefact  result*2  in the following code?",
+                "line1": " result = result*2"
+            },
+            "choices": {
+                "A": " Value\n",
+                "B": " Statement\n",
+                "C": " Operator\n",
+                "D": " Variable\n",
+                "E": " Expression\n",
+                "F": " None of the above\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are wrong",
+                "C": "you are wrong",
+                "D": "you are wrong",
+                "E": "you are correct",
+                "F": "you are wrong"
+            },
+            "correct_answer": "E"
+        }
+    },
+    "weightedlinks": {
+        "links0.0": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.0
+        },
+        "links0.2": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.2
+        },
+        "links0.4": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.4
+        },
+        "links0.6": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.6
+        },
+        "links0.8": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.8
+        },
+        "links1": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 1
+        }
+    }
+}
