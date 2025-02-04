@@ -1,7 +1,36 @@
 import json
 import os
 import xml.etree.ElementTree as ETree
-from conversion.xml_functions import format_xml_to_text
+from conversion.xml_functions import format_xml_to_text, create_jupyter_cells, save_jupyter_cells
+
+
+def json_to_jupytercells(jsonfile, savecells = True):
+    #takes a json file and converts it to a list of jupyter cells
+    data = json.load(jsonfile)
+    questionlist = []
+    for question in data["quiz"]:
+        question = str(question).strip(" ")
+        qname = question
+        name = data["quiz"][question]["name"]
+        question_text = ""
+        for line in data["quiz"][question]["question"]:
+            question_text += "\""+data["quiz"][question]["question"][line]+"\""
+        choices = data["quiz"][question]["choices"]
+        feedback = data["quiz"][question]["feedback"]
+        correct_answer = data["quiz"][question]["correct_answer"]
+        qanswer = "answer" + qname.split("question")[1]
+        py_1, py_2 = create_jupyter_cells(qname,name,question_text,choices,feedback,correct_answer,qanswer)
+        cell_1 = f"""feedback{qname} = {qname}()
+score = {qanswer}(feedback{qname}, score)"""    
+        if savecells:
+            filename = "lab3"
+            save_jupyter_cells(py_1, py_2,filename)
+        questionlist.append(cell_1)
+    
+    return None, questionlist, None, filename
+
+
+
 
 def xml_to_jsonlist(xml_string):
     #function which takes an xml string, isolates multiple choice questions and converts them into a json string
@@ -60,9 +89,9 @@ def jsonlist_to_json(data):
     return json.dumps(jsonoutformat, indent=4)
 
 
-def save_json_to_file(jsonlist, quizfilename,config):
+def save_json_to_file(jsonfile, quizfilename,config):
     #takes a json string and a filename and writes the json string to the
-    jsonfile = jsonlist_to_json(jsonlist)
+    
     jsonprompt = input("Would you like to save the quiz data as a json file? y/n: ")
     if jsonprompt.upper() == "Y":
         if config["usedefaultuserdir"].upper() == "Y":

@@ -56,9 +56,12 @@ def create_new_quiz():
     return
 
 
-def create_quiz_notebook(xml,config):
-        # open a new jupyter notebook and write the cells to it, config is a json file 
-    jsonlist,questionlist,category_text,filename= xml_to_jupyter_cells(xml)
+def create_quiz_notebook(file,config, type="xml"):
+        # open a new jupyter notebook and write the cells to it, config is a json file
+    if type == "xml": 
+        jsonlist,questionlist,category_text,filename= xml_to_jupyter_cells(file)
+    elif type == "json":
+        jsonlist,questionlist,category_text,filename = json_to_jupytercells(file)
     nb = nbf.v4.new_notebook() 
     #starting cell defining global score must be run on notebook opening
     numquestions = len(questionlist)
