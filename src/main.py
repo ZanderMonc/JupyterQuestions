@@ -160,13 +160,31 @@ def score(scoredict, questions):
         print(f"{key}: {scoredict[key]}")
     print(f"Score: {score}/{len(scoredict)}")
     average = score/len(scoredict)
+    toprint = []
+    highest = 0
     for linkname, linkdict in questions["weightedlinks"].items():
-        if average >= linkdict["weight"]:
-            print(f"{linkname}")
-            for key in linkdict["links"]:
-                print(key + ": " + linkdict["links"][key])
+        if linkdict["weight"] <= average:
+            if linkdict["weight"] == average:
+                toprint = (linkname, linkdict)
+                break
+            elif linkdict["weight"] < average: 
+                if linkdict["weight"] > highest:
+                    highest = linkdict["weight"]
+                    toprint = (linkname,linkdict)
+    #print toprint
+    #print linkname and then links next line
+    if toprint != []:
+        #print(toprint[0])
+        print("Links:")
+        for link in toprint[1]["links"]:
+            print(link + ": " + toprint[1]["links"][link])
+    
+    
+
+
     return score
                     
 
 if __name__ == "__main__":
     main()
+ 
