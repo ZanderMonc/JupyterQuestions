@@ -1,7 +1,7 @@
 import json
 import os
 import xml.etree.ElementTree as ETree
-from conversion.xml_functions import format_xml_to_text, create_jupyter_cells, save_jupyter_cells
+from src.conversion.xml_functions import format_xml_to_text, create_jupyter_cells, save_jupyter_cells
 
 
 def json_to_jupytercells(jsonfile, savecells = True):

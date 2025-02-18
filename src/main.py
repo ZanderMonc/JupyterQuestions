@@ -124,7 +124,7 @@ def question_serve(filepath):
     questions = json.load(file)
     for question in questions.keys():
         for qdict in questions[question]:
-            if "link" in qdict:
+            if "link" in qdict or "resource" in qdict:
                 break
             print("Question: " + questions[question][qdict]["name"])
             for line in questions[question][qdict]["question"]:

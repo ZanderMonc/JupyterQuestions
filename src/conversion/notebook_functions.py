@@ -1,8 +1,8 @@
 import nbformat as nbf
 import os
 import json
-from conversion.xml_functions import *
-from conversion.json_functions import *
+from src.conversion.xml_functions import *
+from src.conversion.json_functions import *
 
 def create_control_notebook(config, quizfilename=None, category_text=None ):
     #create control notebook with link to quiz if it does not exist, otherwise add link to quiz if it does not already exist
