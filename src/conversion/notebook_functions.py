@@ -23,7 +23,7 @@ def create_control_notebook(config, quizfilename=None, category_text=None ):
             controlnb['cells'] = [nbf.v4.new_markdown_cell(f"# [Click for {category_text} ]({quizfilename}.ipynb)")]
         controlnb['cells'].append(nbf.v4.new_code_cell(f"#RUN THIS CELL FIRST\nimport sys\nsys.path.append('..')"))
         controlnb['cells'].append(nbf.v4.new_code_cell(f"#Create new json quiz by running this cell\nfrom conversion.notebook_functions import create_new_quiz\ncreate_new_quiz()"))
-        controlnb['cells'].append(nbf.v4.new_code_cell(f"#Add quiz cell to existing notebook? Run this cell if so.\nfilepath = input(\"path to existing ipynb file\")\nquiztopic = input(\"Input topic of stored quiz file : such as \'declare variables\'\")\nquizcomponent = input(\"Input component of stored topic: such as \'final test\'\")\nfrom conversion.notebook_functions import add_quiz_cell\nadd_quiz_cell(filepath,quiztopic, quizcomponent)"))
+        controlnb['cells'].append(nbf.v4.new_code_cell(f"#Add quiz cell to existing notebook? Run this cell if so.\nfilepath = input(\"path to existing ipynb file\")\nquiztopic = input(\"Input topic of stored quiz file : such as \'declare variables\'\")\nquizcomponent = input(\"Input component of stored topic: such as \'final test\'\")\npathtojson = None\npathtojson = input(\"If path to quiz json known, enter in full here\")\nfrom conversion.notebook_functions import add_quiz_cell\nadd_quiz_cell(filepath,quiztopic,quizcomponent,pathtojson)"))
         controlnb["cells"].append(nbf.v4.new_code_cell(f"#Add folder of xml quizzes to existing ipynb\nfrom split_quiz_xml import xml_quizzes_to_jsons\nxml_quizzes_to_jsons()"))
     nbf.write(controlnb, './user/control.ipynb')
     #print control notebook path
@@ -89,25 +89,29 @@ with shelve.open('run_once_flag') as db:
         nbf.write(nb, f'./{filename}.ipynb')
     return jsonlist, category_text, filename
 
-def add_quiz_cell(pathtoexistfile, quiztopic, quizcomponent):
-    #check if pathtoexistfile is not json data
+def add_quiz_cell(ipynbpath, quiztopic=None, quizcomponent=None, jsonpath=None):
+    #check if ipynbpath is not json data
     #if xml file  , convert to json and prompt to save
-    if pathtoexistfile.split(".")[-1] == "xml":
-        jsonout = xml_to_jsonlist(open(pathtoexistfile, "r").read())
+    ipynbpath = ipynbpath.replace("\\","/")
+    if ipynbpath.split(".")[-1] == "xml":
+        jsonout = xml_to_jsonlist(open(ipynbpath, "r").read())
         configpath = find_config()
         with open(configpath, "r") as f:
             config = json.load(f)
-        filename = pathtoexistfile.split("\\")[-1].split(".")[0]
+        filename = ipynbpath.split("\\")[-1].split(".")[0]
         filepath = save_json_to_file(jsonout, filename,config=config)
     
     #takes the name of ipynb file and appends using nbf a cell to run quizrun from to the end
-    nb = nbf.read(pathtoexistfile, as_version=4)#
-    filepath = pathtoexistfile.replace("\\", "/")
+    nb = nbf.read(ipynbpath, as_version=4)
     #check json path is in correct format ("/ replacing all \ to avoid escape characters)
-    cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("{filepath},{quiztopic}","{quizcomponent}")')
+    if quiztopic != None and quizcomponent != None and jsonpath == None:
+        cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("{filepath}","{quiztopic}","{quizcomponent}")')
+    elif jsonpath != None:
+        jsonpath = jsonpath.replace("\\","/")
+        cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("{filepath}",quizpath="{jsonpath}")')
     nb.cells.append(cell)
-    nbf.write(nb, pathtoexistfile)
-    print(f"Quiz {nb} cell added to {pathtoexistfile}")
+    nbf.write(nb, ipynbpath)
+    print(f"Quiz {nb} cell added to {ipynbpath}")
     return 
 
 def find_config():
