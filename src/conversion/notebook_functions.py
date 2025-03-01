@@ -1,8 +1,8 @@
 import nbformat as nbf
 import os
 import json
-from src.conversion.xml_functions import *
-from src.conversion.json_functions import *
+from conversion.xml_functions import *
+from conversion.json_functions import *
 
 def create_control_notebook(config, quizfilename=None, category_text=None ):
     #create control notebook with link to quiz if it does not exist, otherwise add link to quiz if it does not already exist
@@ -99,9 +99,10 @@ def add_quiz_cell(pathtoexistfile, quiztopic, quizcomponent):
             config = json.load(f)
         filename = pathtoexistfile.split("\\")[-1].split(".")[0]
         filepath = save_json_to_file(jsonout, filename,config=config)
-
+    
     #takes the name of ipynb file and appends using nbf a cell to run quizrun from to the end
-    nb = nbf.read(pathtoexistfile, as_version=4)
+    nb = nbf.read(pathtoexistfile, as_version=4)#
+    filepath = pathtoexistfile.replace("\\", "/")
     #check json path is in correct format ("/ replacing all \ to avoid escape characters)
     cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("{filepath},{quiztopic}","{quizcomponent}")')
     nb.cells.append(cell)

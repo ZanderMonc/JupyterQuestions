@@ -3,3 +3,4 @@ src/server/
 src/.ipynb_checkpoints/
 src/__pycache__/
 venv/
+myenv/

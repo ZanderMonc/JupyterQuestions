@@ -2,9 +2,9 @@ import os
 import json
 from xml.etree import ElementTree as ET
 
-from src.conversion.json_functions import *
-from src.conversion.xml_functions import *
-from src.conversion.notebook_functions import *
+from conversion.json_functions import *
+from conversion.xml_functions import *
+from conversion.notebook_functions import *
 
 
 global config 
