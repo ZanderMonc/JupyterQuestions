@@ -6,7 +6,7 @@ import sys
 import main
 
 class TestMain(unittest.TestCase):
-    def test_main(self):
+    def test_main(self): # tests the main function and if the multicellversion or singlecellversion is called depending on config 
         with patch.object(sys, 'argv', ['main.py']):
             with patch.object(os, 'chdir') as mock_chdir:
                 with patch.dict('main.config', {"multicellversion": "Y"}):
