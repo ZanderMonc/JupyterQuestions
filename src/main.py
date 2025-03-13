@@ -90,31 +90,21 @@ def quizrun(quiztopic=None, quizcomponent=None, quizpath=None):#function runs an
                             for file in os.listdir():
                                 if quizcomponent in file.lower() and file.endswith(".json"):
                                     filepath = os.path.abspath(file)
-                else:#if not user directory then server directory
-                    for folder in os.listdir('./server'):
-                        if quiztopic in folder.lower():
-                            for file in os.listdir(f'./server/{folder}'):
-                                if quizcomponent in file.lower() and file.endswith(".json"):
-                                    filepath = f'./server/{folder}/{file}'
+            else:#if not user directory then server directory
+                for folder in os.listdir('./server'):
+                    if quiztopic in folder.lower():
+                        for file in os.listdir(f'./server/{folder}'):
+                            if quizcomponent in file.lower() and file.endswith(".json"):
+                                filepath = f'./server/{folder}/{file}'
         elif quizpath!=None:
             #open file from quizpath
+            #ensure quizpath in linux format
+            quizpath = quizpath.replace("\\","/")
             filepath = quizpath
         else:
             raise Exception("No quiz filepath found")
 
-        scoreout = question_serve(filepath)  
-      
-
-        #check exceptions, either filename wrong so not found, or user ends loop early and causes keyerror, in which case close gracefully telling the user the attempt was aborted
-    # except FileNotFoundError:
-    #     print("File not found")
-    # except KeyError as e:
-    #     print("Key error: " + str(e))
-            
-    #     #in all other exceptions, print the error message
-    # except Exception as e:
-    #     print("Error: " + str(e))
-    
+        scoreout = question_serve(filepath)      
         return
 
 

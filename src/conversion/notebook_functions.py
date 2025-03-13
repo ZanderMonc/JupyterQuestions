@@ -86,7 +86,8 @@ with shelve.open('run_once_flag') as db:
     if config["usedefaultuserdir"].upper() == "Y":
         nbf.write(nb, f'./user/{filename}.ipynb')
     else:
-        nbf.write(nb, f'./{filename}.ipynb')
+        userdir = input("Enter the path to the directory where you would like to save the notebook: ")
+        nbf.write(nb, f'{userdir}/{filename}.ipynb')
     return jsonlist, category_text, filename
 
 def add_quiz_cell(ipynbpath, quiztopic=None, quizcomponent=None, jsonpath=None):
