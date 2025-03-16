@@ -66,7 +66,7 @@ def multicellversion():
 
 def quizrun(quiztopic=None, quizcomponent=None, quizpath=None):#function runs any json quiz in single cell , quiztopic such as "declaring variables", quizcomponent such as "final test"
     #try:
-        if quizpath==None:
+        if quizpath==None or quizpath =="" or quizpath== " ":
             quiztopic = quiztopic.lower().strip()
             quizcomponent = quizcomponent.lower().strip()
             #make sure os is on src directory

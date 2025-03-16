@@ -21,7 +21,14 @@ def create_control_notebook(config, quizfilename=None, category_text=None ):
         #new python cells
         if config["multicellversion"].upper() == "Y":
             controlnb['cells'] = [nbf.v4.new_markdown_cell(f"# [Click for {category_text} ]({quizfilename}.ipynb)")]
-        controlnb['cells'].append(nbf.v4.new_code_cell(f"#RUN THIS CELL FIRST\nimport sys\nsys.path.append('..')"))
+        controlnb['cells'].append(nbf.v4.new_code_cell(f'''######## RUN THIS CELL FIRST ########
+import os
+if "src" in os.getcwd():
+    while os.path.basename(os.getcwd()) != "src":
+        os.chdir('../')
+elif "src" not in os.getcwd():
+    print("please run this notebook cell from under the src directory")
+print(os.getcwd())'''))
         controlnb['cells'].append(nbf.v4.new_code_cell(f"#Create new json quiz by running this cell\nfrom conversion.notebook_functions import create_new_quiz\ncreate_new_quiz()"))
         controlnb['cells'].append(nbf.v4.new_code_cell(f"#Add quiz cell to existing notebook? Run this cell if so.\nfilepath = input(\"Full path to existing ipynb file\")\nquiztopic = input(\"Input topic of stored quiz file : such as \'declare variables\'\")\nquizcomponent = input(\"Input component of stored topic: such as \'final test\'\")\npathtojson = None\npathtojson = input(\"If path to quiz json known, enter in full here\")\nfrom conversion.notebook_functions import add_quiz_cell\nadd_quiz_cell(filepath,quiztopic,quizcomponent,pathtojson)"))
         controlnb["cells"].append(nbf.v4.new_code_cell(f"#Add folder of xml quizzes to existing ipynb\nfrom split_quiz_xml import xml_quizzes_to_jsons\nxml_quizzes_to_jsons()"))
@@ -93,6 +100,7 @@ def add_quiz_cell(ipynbpath, quiztopic=None, quizcomponent=None, jsonpath=None):
     #check if ipynbpath is not json data
     #if xml file  , convert to json and prompt to save
     ipynbpath = ipynbpath.replace("\\","/")
+    ipynbpath = ipynbpath.replace("\"","")
     if ipynbpath.split(".")[-1] == "xml":
         jsonout = xml_to_jsonlist(open(ipynbpath, "r").read())
         configpath = find_config()
@@ -104,14 +112,37 @@ def add_quiz_cell(ipynbpath, quiztopic=None, quizcomponent=None, jsonpath=None):
     #takes the name of ipynb file and appends using nbf a cell to run quizrun from to the end
     nb = nbf.read(ipynbpath, as_version=4)
     #check json path is in correct format ("/ replacing all \ to avoid escape characters)
-    if quiztopic != None and quizcomponent != None and jsonpath == None:
-        cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("{quiztopic}","{quizcomponent}")')
-    elif jsonpath != None:
+    if jsonpath in [None, " ", ""] and quiztopic != None and quizcomponent != None:
+        cell = nbf.v4.new_code_cell(f'''
+###### RUN THIS CELL TO RUN QUIZ ######
+import os
+if "src" in os.getcwd():
+    while os.path.basename(os.getcwd()) != "src":
+        os.chdir('../')
+elif "src" not in os.getcwd():
+    print("ERROR: please run this notebook cell from under the src directory")
+                                    
+from main import *
+quizrun("{quiztopic}", "{quizcomponent}")
+''')
+    elif jsonpath not in [None, " ", ""]:
         jsonpath = jsonpath.replace("\\","/")
-        cell = nbf.v4.new_code_cell(f'import sys\nsys.path.append(\'..\')\nfrom main import *\nquizrun("quizpath="{jsonpath}")')
+        jsonpath = jsonpath.replace("\"","")
+        cell = nbf.v4.new_code_cell(f'''
+###### RUN THIS CELL TO RUN QUIZ ######
+import os
+if "src" in os.getcwd():
+    while os.path.basename(os.getcwd()) != "src":
+        os.chdir('../')
+elif "src" not in os.getcwd():
+    print("ERROR: please run this notebook cell from under the src directory")
+    
+from main import *
+quizrun(quizpath="{jsonpath}")
+''')
     nb.cells.append(cell)
     nbf.write(nb, ipynbpath)
-    print(f"Quiz {nb} cell added to {ipynbpath}")
+    print(f"Quiz cell added to {ipynbpath}")
     return 
 
 def find_config():
