@@ -1,0 +1,103 @@
+{
+    "quiz": {
+        "question1": {
+            "name": "Name of question to show the user",
+            "question": {
+                "line0": "Each line of the question is formatted as a key-value pair",
+                "line1": "The key is 'line' followed by the line number",
+                "line2": "The value is the text of the line",
+                "line3": "The question is a dictionary of lines",
+                "line4": "indentation and other line to line distinction is possible",
+                "line5": "for instance....",
+                "line6":"          'indentation ,"
+                  },
+            "choices": {
+                "A": "You can have",
+                "B": "Any number of",
+                "C": "Choices",
+                "D": "But only one correct answer",
+                "E": "Is allowed",
+                "F": "Right answer"
+            },
+            "feedback": {
+                "A": "you are wrong, can write any additonal text here",
+                "B": "you are wrong",
+                "C": "you are wrong",
+                "D": "you are wrong",
+                "E": "you are wrong",
+                "F": "you are correct"
+
+            },
+            "correct_answer": "F"
+        },
+        "question2": {
+            "name": "Same idea as the first question, example below",
+            "question": {
+                "line0": "prompt = 'Hello'",
+                "line1": "a = 4",
+                "line2": "b = len(prompt)",
+                "line3": "c = 6",
+                "line4": "c = a",
+                "line5": "a = b",
+                "line6": "a = c",
+                "line7": "c = a + b + c",
+                "line8": "",
+                "line9": " What is the final value of  c",
+                "line10": "?"
+            },
+            "choices": {
+                "A": "4",
+                "B": " 15\n",
+                "C": " 13\n",
+                "D": " 14\n",
+                "E": " Error\n"
+            },
+            "feedback": {
+                "A": "you are wrong",
+                "B": "you are wrong",
+                "C": "you are correct",
+                "D": "you are wrong",
+                "E": "you are wrong"
+            },
+            "correct_answer": "C"
+        }
+    },
+    "weightedlinks": {
+        "links0.0": {
+            "links": {
+                "Can add any number of links as key:value pairs here ": "www.example.com"
+            },
+            "weight": 0.0
+        },
+        "links0.2": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.2
+        },
+        "links0.4": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.4
+        },
+        "links0.6": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.6
+        },
+        "links0.8": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 0.8
+        },
+        "links1": {
+            "links": {
+                "Click this generic link for further information": "https://www.google.com"
+            },
+            "weight": 1
+        }
+    }
+}
